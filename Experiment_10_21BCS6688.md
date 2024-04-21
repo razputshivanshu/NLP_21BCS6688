@@ -10,8 +10,7 @@ Traditional methods for sequencing, like RNNs (Recurrent Neural Networks) and LS
 
 The transformer architecture consists of two main components: an encoder and a decoder. Each component comprises multiple layers, with each layer performing specific tasks such as attending to important parts of the input and making predictions. The key innovation lies in the use of self-attention mechanisms, allowing the model to focus on relevant parts of the input sequence without needing to consider the entire context at once. Additionally, the architecture employs multi-head attention, enabling simultaneous processing of multiple aspects of the input data.
 
-
-
+![1_GAQrbFIV-G5cT3-OchMEHg](https://github.com/razputshivanshu/NLP_21BCS6688/assets/89507255/bf63c6ed-607f-4565-b417-3ca1d3fba7e9)
 
 
 
@@ -24,6 +23,8 @@ The decoder takes the encoded information and generates the translated sentence 
 During training, the transformer learns from examples to improve its translation capabilities. It compares its predicted translations with the actual translations in the training data and adjusts its parameters accordingly.
 
 
+
+![expire-span-attention-recap](https://github.com/razputshivanshu/NLP_21BCS6688/assets/89507255/7114795c-9cf8-4935-9be5-2a1035f2ad5a)
 
 
 
@@ -56,6 +57,9 @@ Parallel processing accelerates training and inference, as it maximizes hardware
 The self-attention mechanism in transformers allows the model to weigh the importance of different words in a sequence based on their relationships with each other. It enables the model to capture long-range dependencies and interactions across the entire sequence effectively. Unlike traditional sequential models, which process data one step at a time, self-attention allows transformers to consider all words in the sequence simultaneously. This is achieved by computing attention scores between each word pair and using them to create context-aware representations for each word. 
 
 By attending to relevant parts of the input sequence, the model can focus more on important information while encoding input, leading to improved performance in various natural language processing tasks. Self-attention is a key component of the transformer architecture and plays a crucial role in its ability to understand and process complex sequences efficiently.
+
+
+<img width="1013" alt="transformers" src="https://github.com/razputshivanshu/NLP_21BCS6688/assets/89507255/bfd43bdc-2289-4194-9a08-3bb1589e53f6">
 
 
 
